@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="header" Codebehind="header.master.cs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Food Nemo</title>
+    <link type="text/css" rel="stylesheet" href="./style/base.css" />
+    <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./js/validation.js"></script>
+</head>
+<body>
+    <div class="header"><ul><li>Home</li><li>About Us</li></ul></div>
+    <div class="content">
+        <form id="orderForm" runat="server">
+            <div class="formContainer">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+    <div class="footer"><div class="left">@2015 Food Nemo</div><div class="right"></div></div>
+</body>
+</html>
